@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 import { confirm } from "../Confirmation"
 import FormularioPacientes from "./FormularioPacientes";
-import Header from './components/Header';
+import Header from '../Header';
 
 import { urlApi } from "../../services/apirest";
 
@@ -139,7 +139,7 @@ class Usuarios extends React.Component {
             <div>
 
                 <div className="col-10 position-absolute top-0 start-50 translate-middle-x">
-                    <header/>
+                    <Header/>
                     <h1>Datos de Pacientes</h1>
                     <button className="btn btn-success" onClick={this.mostrarModalNuevo}>Nuevo registro</button>
                     <input type="text" className="form-control" placeholder="Buscar por  Direccion, Telefono" onKeyPress={this.busqueda} />

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { urlApi } from "../../services/apirest";
-import Header from './Header';
+
 //import { SoloLetras } from '../../utils/validaciones';
 
 

@@ -3,7 +3,7 @@ import axios from "axios";
 import { urlApi } from "../../services/apirest";
 import { confirm } from "../Confirmation";
 import FormularioEspecialidad from "./FormularioEspecialidad";
-import Header from "./Header";
+import Header from "../Header";
 
 
 class Especialidades extends React.Component {

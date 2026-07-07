@@ -6,6 +6,8 @@ import Login from './components/Login';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Usuarios from './components/usuarios/Usuarios';
 import Pacientes from './components/pacientes/Pacientes';
+import Especialidades from './components/especialidades/Especialidades';
+
 
 
 class App extends React.Component {
@@ -38,7 +40,8 @@ class App extends React.Component {
           <Routes>
             <Route path='/' element={<Login notificacion={this.notificacion} />} />
             <Route path='/usuarios' element={<Usuarios notificacion={this.notificacion} />}></Route>
-            <Route path='/pacientes' element={<pacientes notificacion={this.notificacion} />}></Route>
+            <Route path='/Pacientes' element={<pacientes notificacion={this.notificacion} />}></Route>
+            <Route path='/Especialidades' element={<pacientes notificacion={this.notificacion} />}></Route>
           </Routes>
         </Router>
       </div>
